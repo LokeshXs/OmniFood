@@ -27,16 +27,10 @@ yearEl.textContent = currentYear;
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
-const htmlEl = document.querySelector("html");
 
 btnNavEl.addEventListener('click',function(){
   headerEl.classList.toggle("nav-open");
-  if(headerEl.classList.contains("nav-open")){
-htmlEl.style.overflowY = "hidden";
-  }else{
-    htmlEl.style.overflowY = "scroll";
-  }
-})
+});
 
 ///////////////////////////////////////////////////////////
 // SMOOTH SCROLLING ANIMATION
