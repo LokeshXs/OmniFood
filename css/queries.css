@@ -76,6 +76,7 @@
   html{
     /* 8px/16px */
     font-size: 50%;
+    
   }
 
   .hero{
@@ -138,7 +139,7 @@
 }
 
 .main-nav{
-  background-color: rgba(255, 255, 255,0.95);
+  background-color: rgba(255, 255, 255,0.6);
   position: absolute;
   top: 0;
   left: 0;
@@ -150,6 +151,9 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease-in;
+ backdrop-filter: blur(10px);
+
+
 
 
   /* Hide navigation */
